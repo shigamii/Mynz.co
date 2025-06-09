@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mynz.Co</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #BFB2A8;
+      color: #333;
+    }
+
+    header {
+      background-image: url('https://images8.alphacoders.com/870/870753.jpg');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 100px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 100px;
+      margin-bottom: 10px;
+    }
+
+    nav {
+      background-color: #9c7f65;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 40px;
+      text-decoration: none;
+      color: #74523B;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    main {
+      max-width: 1500px;
+      margin: auto;
+      padding: 10px 15px;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      color: #74523B;
+      border-bottom: 3px solid #74523B;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 15px;
+    }
+
+    .menu-item {
+      background-color:#CBCDCC;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .menu-item img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .menu-content {
+      padding: 15px;
+    }
+
+    .menu-content h3 {
+      margin: 0 0 10px;
+    }
+
+    .menu-content .price {
+      color: #74523B;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .icon {
+      color: #74523B;
+      margin-right: 5px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #74523B;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Mynz.Co</h1>
+    <p>Taste the Flavor of Freshness</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Menu</a>
+    <a href="#">About Us</a>
+    <a href="#">Contact Us</a>
+</nav>
+
+<main>
+    <section>
+        <h2><i class="fas fa-coffee icon"></i>Drinks</h2>
+        <div class ="menu-grid">
+            <div class="menu-item">
+                <img src="Americano.webp" alt="Americano">
+                <div class="menu-content">
+                    <h3>Americano</h3>
+                    <div class="price">RM7.00</div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="Latte.jpg" alt="Latte">
+                <div class="menu-content">
+                    <h3>Latte</h3>
+                    <div class="price">RM9.00</div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="Mocha.jpg" alt="Mocha">
+                <div class="menu-content">
+                    <h3>Mocha</h3>
+                    <div class="price">RM12.00</div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="Hot Chocolate.jpg" alt="Hot Chocolate">
+                <div class="menu-content">
+                    <h3>Hot Chocolate</h3>
+                    <div class="price">RM8.00</div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="Caramel Macchiato.jpg" alt="Caramel Macchiato">
+                <div class="menu-content">
+                    <h3>Caramel Macchiato</h3>
+                    <div class="price">RM10.00</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <section>
+        <h2><i class="fas fa-bolt icon"></i>Pastry</h2>
+        <div class ="menu-grid">
+            <div class="menu-item">
+                <img src="Croissant.webp" alt="Croissant">
+                <div class="menu-content">
+                    <h3>Croissant</h3>
+                    <div class="price">RM6.00</div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="Palmier.jpg" alt="Palmier">
+                <div class="menu-content">
+                    <h3>Palmier</h3>
+                    <div class="price">RM4.00</div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="Blueberry Danish.webp" alt="Blueberry Danish">
+                <div class="menu-content">
+                    <h3>Blueberry Danish</h3>
+                    <div class="price">RM8.00</div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="Baklava.avif" alt="Baklava">
+                <div class="menu-content">
+                    <h3>Baklava</h3>
+                    <div class="price">RM7.00</div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="Pain Au Chocolat.jpg" alt="Pain Au Chocolat">
+                <div class="menu-content">
+                    <h3>Pain Au Chocolat</h3>
+                    <div class="price">RM4.00</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2><i class="fas fa-ice-cream icon"></i> Desserts</h2>
+        <div class ="menu-grid">
+            <div class="menu-item">
+                <img src="Tiramisu.jpg" alt="Tiramisu">
+                <div class="menu-content">
+                    <h3>Tiramisu</h3>
+                    <div class="price">RM15.00</div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="Cheese Cake.jpg" alt="Cheese Cake">
+                <div class="menu-content">
+                    <h3>Cheese Cake</h3>
+                    <div class="price">RM7.00</div>
+                </div>
+            </div>
+                        <div class="menu-item">
+                <img src="Red Velvet.jpeg" alt="Red Velvet">
+                <div class="menu-content">
+                    <h3>Red Velvet</h3>
+                    <div class="price">RM12.00</div>
+                </div>
+            </div>
+                        <div class="menu-item">
+                <img src="Black Forest.jpg" alt="Black Forest">
+                <div class="menu-content">
+                    <h3>Black Forest</h3>
+                    <div class="price">RM12.00</div>
+                </div>
+            </div>
+                        <div class="menu-item">
+                <img src="Chocolate Cake.webp" alt="Chocolate Cake">
+                <div class="menu-content">
+                    <h3>Chocolate Cake</h3>
+                    <div class="price">RM7.00</div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Mynz.Co. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
